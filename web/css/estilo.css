@@ -1,0 +1,51 @@
+/* 
+    Created on : 25/03/2015, 00:22:36
+    Author     : stryker
+*/
+
+html, body{
+	width: 98%;
+	height: 85%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background: #f0f0f0;
+}
+
+h1{
+  margin-top: 150px;   
+  margin-left: 540px;  
+}
+
+#container{
+	position: fixed;
+	width: 340px;
+	height: 170px;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: -170px;
+	background: #fff;
+
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, .1);
+
+	-webkit-animation-name: bounceIn;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count: linear;
+	-moz-animation-name: bounceIn;
+	-moz-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: linear;
+	animation-name: bounceIn;
+	animation-fill-mode: both;
+	animation-duration:1s;
+	animetion-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+ul { list-style-type: none; }
+ul li a{ text-decoration: none; }
